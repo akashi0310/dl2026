@@ -4,7 +4,7 @@ def f(x):
 def df(x):
     return 2 * x
 
-L = 0.1 # learning rate
+L = 0.01 # learning rate
 
 def gradient_descent(x):
     x = x - L * df(x)
